@@ -8,28 +8,29 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
-    border:1px solid red;
   }
 .background {
     position: relative;
-    width: 500px;
+    width: 300px;
     height: 200px;
     text-align: center;
     padding: 30px;
     border-radius: 10px;
-    border:1px solid orange;
-  }
+}
 p{
     position: absolute;
     top: 225px;
-    left: 200px;
+    left: 50%;
     font-family: 'Merriweather';
     color: #fff;
+    transform:translateX(-75px);
   }
 .wall-e {
 	position: absolute;
-	top: 0px;
-	left: 170px;
+    top: 0px;
+    left:50%;
+    border:1px solid black;
+    transform:translateX(-105px);
 }
 .body {
     position: absolute;
